@@ -24,6 +24,9 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
 
+    // Apache Commons Validator
+    implementation 'commons-validator:commons-validator:1.10.1'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
